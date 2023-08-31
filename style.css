@@ -257,14 +257,11 @@ nav{
     object-fit: cover;
 }
 .tright{
-    display: flex;
-    align-items: right;
-    /* justify-content: space-evenly; */
-    flex-direction: column;
-    gap: 1.3vw;
+    
+    
     width: 50%;
     height: 100%;
-    padding-top:2vw ;
+    
 }
 .tright h4{
     font-size: 1.3vw;
@@ -276,6 +273,16 @@ nav{
     font-size: 20px;
     background-color: #f1efef;
     border: none;
+}
+form{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: right;
+    /* justify-content: space-evenly; */
+    flex-direction: column;
+    gap: 1.3vw;
+    
 }
 .btn{
     width: 150px;
