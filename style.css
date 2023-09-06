@@ -136,8 +136,17 @@ nav{
     /* background-color: red; */
 }
 .pleft{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
     width: 45%;
     /* height: 60vh; */
+}
+.pleft img{
+    width: 60%;
+    object-fit: cover;
+    object-position: center;
+    height: 60%;
 }
 .pright{
     display: flex;
